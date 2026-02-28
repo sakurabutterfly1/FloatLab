@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    background-color: rgb(224, 231, 238);
+    background-color: rgb(242, 243, 245);
     border-radius: 10px;
     margin:10px auto;
     max-width: 95%;
@@ -63,9 +63,14 @@ img{
 }
 
 .box p,.box h2, .box h3 {
+   line-height: 1.5;
+   padding: 5px 0;
+}
+
+.box{
     padding: 10px;
     border-radius: 18px;
-    border: 1px,#a3a2a2;
+    border: 1px #9c9a9a;
 }
 
 .content .box a{
@@ -76,14 +81,16 @@ img{
     border-radius: 10px;
     text-decoration: none;
 }
+.content ul{
+    margin: 20px
+}
+
 .box p:first-child{
     color: #bebcbc;
 }
 .sidebar .box:first-child{
     text-align: center;
 }
-
-
 
 .wrapper{
     padding:20px;
@@ -103,8 +110,14 @@ img{
 .sidebar img{
 height:80px;
 width:80px;
-
 }
+
+.sidebar ul{
+    margin: 20px;
+}
+
+
+
 
 @media (min-width: 600px) {
   .logo {float: left;
@@ -113,5 +126,16 @@ width:80px;
    .content{
     float:left; width:70%}
 .sidebar{float: right;width:28%; margin-left: 2%;}
-  }
+.box1 img{
+    height: 150px;
+    width: 200px;
+    float: left;
+    padding: 10px;
 }
+
+.box2 img{
+    height: 150px;
+    width: 200px;
+    float: right;
+    padding: 10px;
+  }
